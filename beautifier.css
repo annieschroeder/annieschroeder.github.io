@@ -1,0 +1,292 @@
+body {
+	background-color: #fefefeff;
+	font-family: 'Miriam Libre', sans-serif;
+}
+
+p {
+	font-size: smaller;
+}
+
+.header { 
+	background-color: #2c3038ff; 
+	color: #fefefeff; 
+	padding-bottom: 10px;
+}
+
+#lightbulb {
+	transform: rotate(-20deg);
+	width: 275px;
+}
+
+h3 {
+	font-size: 100%;
+}
+
+.main-info {
+	height: 400px;
+	background-color: #2c3038ff; 
+	color: #fefefeff; 
+	padding-bottom: 75px;
+}
+
+.research-button {
+	color: black;
+}
+
+#search {
+	margin-top: -70px; 
+	margin-bottom: -85px; 
+	position: relative; 
+	z-index: 1; 
+	background-color: white; 
+	border-radius: 10px; 
+	padding: 30px; 
+	width: 75%;
+	box-shadow: 8px 8px 12px #d4d3d4ff;
+}
+
+.btn {
+	text-transform: uppercase;  
+}
+
+.btn-primary {
+	background-color: #ee685dff;
+	border-color: #ee685dff;
+}
+
+.btn-primary:hover {
+	background-color: #ee857aff;
+	border-color: #ee857aff;
+}
+
+.btn-secondary {
+	background-color: #d4d3d4ff;
+	border-color: #d4d3d4ff;
+	color: #2c3038ff;
+}
+
+.btn-secondary:hover {
+	background-color: #b8b7b8ff;
+	border-color: #b8b7b8ff;
+	color: #2c3038ff
+}
+
+.form-control {
+	background-color: #d4d3d4ff;
+	border-color: #d4d3d4ff;
+	color: white;
+}
+
+.form-control:hover {
+	background-color: #b8b7b8ff;
+	border-color: #b8b7b8ff;
+}
+
+option {
+	background-color: #d4d3d4ff;
+	border-color: #d4d3d4ff;
+}
+
+#searchbutton {
+	width: 200px;
+}
+
+.info{
+	padding-top: 110px;
+	border-color: white; 
+}
+
+.card {
+	border: none;
+	padding-bottom: 50px;
+	padding-top: 40px;
+}
+
+ .card-img-top {
+ 	width: 100px;
+ }
+
+ .blue {
+ 	background-color: #1f8dcbff;
+ }
+
+h4 {
+	color: #ee685dff;
+	font-size: 1em; 
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.rating {
+	text-transform: uppercase;
+}
+
+ .star-rating {
+ 	width: 150px;
+ 	padding-left: 20px; 
+ }
+
+.activity-info {
+	padding-bottom: 20px;
+}
+
+iframe {
+	width: 400px;
+	margin-top: 45px;
+	height: 225px;
+}
+
+#foldedpaper {
+	margin-top: 45px;
+}
+
+ #neurons {
+ 	width: 400px;
+ 	margin-top: 45px;
+ }
+
+#quote {
+	background-color: #2c3038ff;
+	color: white;
+	height: 120px;
+	padding-top: 80px;
+}
+#author {
+	background-color: #2c3038ff;
+	color: white;
+	height: 120px;
+	padding-bottom: 50px; 
+}
+
+ .footer {
+ 	background-color: #2c3038ff; 
+ 	color: white; 
+ }
+
+/* unvisited link */
+a.no-style-link:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a.no-style-link:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.no-style-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a.no-style-link:active {
+    color: white;
+    text-decoration: none;
+}
+
+ /*search results page*/
+#search_heading {
+	padding-top: 20px;
+}
+
+.result-info:hover {
+	background-color: #1f8dcbff;
+}
+
+.hover-button:hover {
+	text-decoration: none;
+	color: #2c3038ff;
+}
+
+.hover-button {
+	color: #2c3038ff;
+}
+
+#search_results {
+	background-color: white;
+	color: #2c3038ff;
+}
+
+.result-info:hover b {
+	color: white;
+
+}
+
+
+b {
+	font-size: larger;
+	color: #ee685dff;
+}
+
+
+.image-name {
+	width: 220px;
+	margin-top: 30px;
+}
+
+.quick-info {
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+
+.review-info {
+	padding-top: 30px;
+}
+
+.title {
+	color: #ee685dff;
+	text-decoration: bold; 
+}
+
+.all-the-info {
+	padding-top: 20px;
+}
+
+#objective {
+	padding-top: 20px;
+}
+
+ul li {
+	padding-top: 5px;
+}
+
+ol li {
+	padding-top: 10px;
+}
+
+.quick-review {
+	color: #d4d3d4ff;
+}
+
+.grey-box {
+	border-radius: 20px;
+	box-shadow: 5px 5px 12px white;
+	padding-left: 20px;
+	padding-right: 10px;
+	margin-left: 5px;
+	margin-bottom: 30px;
+}
+
+.review-quote {
+	padding-top: 25px;
+	padding-right: 70px;
+	padding-left: 70px;
+	font-style: italic; 
+	color: white;
+	font-size: larger;
+
+}
+
+.title {
+	margin-top: 30px;
+}
+
+
+
+
+
+
