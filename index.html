@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Miriam+Libre" rel="stylesheet">
+    <link rel="stylesheet" href="beautifier.css">
+    <title>Make Your Mind</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="container">
+      <!-- LOGO -->
+      <div class="row justify-content-left header">
+        <div class="col">
+          <h3><img src="./assets/whitebrain.png" alt="brain icon" width="50px">Make Your Mind</h3>
+        </div>
+      </div>
+      <!-- SITE TEXT -->
+      <div class="row justify-content-center align-items-center main-info">
+        <div class="col-5" align="center">
+          <img id="lightbulb" src="./assets/colorbrainicon.png" alt="ligtbulb brain icon">
+        </div>
+        <div class="col-7">
+          <h1>Activities for every classroom!</h1>
+          <p>Build your students’ growth mindsets through engaging activities for every age group made by teachers for teachers.</p>
+          <p>Learn more about the benefits a growth mindset can have on student outcomes</p>
+          <a role="button" class="btn btn-secondary" id="research-button" href="https://www.mindsetworks.com/Science/Impact" target="_blank">Research</a>
+        </div>
+      </div>
+    </div>
+    <!-- SEARCH SECTION -->
+    <div id="search" class="container">
+      <div class="row justify-content-center">
+        <p>Find the activity that's just right for your students.</p>
+      </div>
+      <div class="row">
+        <div class="form-age col">
+          <select class="form-control" id="ageFormControl">
+            <option>AGE</option>
+            <option>k-2</option>
+            <option>3-5</option>
+            <option>6-8</option>
+            <option>9-12</option>
+          </select>
+        </div>
+        <div class="form-duration col">
+          <select class="form-control" id="durationFormControl">
+            <option>DURATION</option>
+            <option>less than 5 min</option>
+            <option>5-10 min</option>
+            <option>10-20min</option>
+            <option>30 min</option>
+            <option>45 min</option>
+            <option>1 hour</option>
+            <option>1.5 hours</option>
+          </select>
+        </div>
+        <div class="form-topic col">
+          <select class="form-control" id="topicFormControl">
+            <option>TOPIC</option>
+            <option>Perseverance</option>
+            <option>Motivation</option>
+            <option>Brain Science</option>
+            <option>Growth Mindset</option>
+          </select>
+        </div>
+        <div class="form-search col" align="center">
+          <a role="button" class="btn btn-primary" id="searchbutton" href="./search_results_grid.html">Search</a>
+        </div>
+      </div>
+    </div>
+    <div class="container info">
+      <div class="row">
+        <div class="card col">
+          <img class="card-img-top" src="./assets/teacher.png" alt="teacher clip art">
+          <div class="card-body">
+            <h5 class="card-title">Teacher Made</h5>
+            <p class="card-text">All activities are curated and rated by classroom teachers</p>
+          </div>
+        </div>
+        <div class="card col">
+          <img class="card-img-top" src="./assets/stopwatch.png" alt="time clip art">
+          <div class="card-body">
+            <h5 class="card-title">Short &amp; Sweet</h5>
+            <p class="card-text">Activities range from 2 minute videos up to 90 minute lessons</p>
+          </div>
+        </div>
+        <div class="card col">
+          <img class="card-img-top" src="./assets/university.png" alt="school house clip art">
+          <div class="card-body">
+            <h5 class="card-title">Interdisciplinary</h5>
+            <p class="card-text">Activities can be used in any class, they are not specific any content area</p>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="example-activities">
+        <div class="row">
+          <div class="activity-image-video col blue" align="center">
+            <iframe src="https://www.youtube.com/embed/jU4oA3kkAWU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="activity-info col">
+            <h4 class="activity-classification">Motivation | 8 minutes | Grades 3-5</h4>
+            <h2 class="activity-title">Football Island</h2>
+            <p>Show students an exciting example of what kids can do when they are determined! Discussion topics include adversity and perseverance</p>
+            <h3 class="rating">Teacher Rating<img class="star-rating" src="./assets/fivestar.png" alt="5 star rating"></h3>
+            <br>
+            <a role="button" class="btn btn-primary btn-activity" href="./football_grid.html">See Activity</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="activity-info col">
+            <h4 class="activity-classification">Productive Struggle | 10 minutes | Grades 6-8</h4>
+            <h2 class="activity-title">Paper Folding Game</h2>
+            <p>Invite students to feel the “brain burn”! This game will teach your students to embrace the struggle and practice their mental stamina</p>
+            <h3 class="rating">Teacher Rating<img class="star-rating" src="./assets/fourstar.png" alt="4 star rating"></h3>
+            <br>
+            <a role="button" class="btn btn-primary btn-activity" href="./paper_grid.html">See Activity</a>
+          </div>
+          <div class="activity-image-video col blue" align="center">
+            <img id="foldedpaper" src="./assets/paperfolding.png" alt="example of folded paper">
+          </div>
+        </div>
+        <div class="row">
+          <div class="activity-image-video col blue" align="center">
+            <img id="neurons" src="./assets/neurons.jpg" alt="neurons in the brain">
+          </div>
+          <div class="activity-info col">
+            <h4 class="activity-classification">Brain Science | 15 minutes | Grades 9-125</h4>
+            <h2 class="activity-title">Learning Something New</h2>
+            <p>Students will learn about dendrites, synapses, and what happens in the brain when they do something for the first time. Includes a hands on art activity</p>
+            <h3 class="rating">Teacher Rating<img class="star-rating" src="./assets/threestar.png" alt="3 star rating"></h3>
+            <br>
+            <a role="button" class="btn btn-primary btn-activity" href="./learn_grid.html">See Activity</a>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER -->
+      <div class="container footer">
+        <!-- FOOTER QUOTE -->
+        <div id="quote" class="row justify-content-center align-items-center">
+          <h2>Becoming is better than being.</h2>
+        </div>
+        <div id="author" class="row justify-content-center align-items-center">
+          <h3>- Carol Dweck</h3>
+        </div>
+        <!-- FOOTER LOGO -->
+        <div class="row justify-content-left">
+          <div class="col">
+            <h3><img src="./assets/whitebrain.png" alt="brain icon" width="50px">Make Your Mind</h3>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
